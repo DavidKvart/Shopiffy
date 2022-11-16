@@ -1,0 +1,224 @@
+.contain
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 35% 39% 16%;
+    gap: 2px 2px;
+    width: 100%;
+    height: 100%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    
+}
+
+#Spring
+{
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    position: relative;
+}
+#spring-photo
+{
+  width: 100%;
+  border: 2px solid  #222222;
+  transition: .5s ease;
+    
+}
+#spring-ancor
+{
+   
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+   
+   
+}
+#spring-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+    opacity: 0.9;
+}
+
+
+
+
+#Tshirts
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    position: relative;
+ 
+   
+   
+}
+#Tshirts-ancor
+{
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 700;
+    top: 5%;
+    left: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+#tshirt-photo
+{
+    width: 100%;
+    border: 2px solid  #222222;
+    transition: .5s ease;
+}
+#tshirt-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+}
+
+
+#Shirts
+{
+    
+    grid-column-start: 4;
+    grid-column-end: 7;
+    position: relative;
+    
+   
+}
+#shirts-ancor
+{
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 700;
+    top: 5%;
+    left: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+#shirts-photo
+{
+    width: 100%;
+    border: 2px solid  #222222;
+    transition: .5s ease;
+}
+#shirts-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+}
+
+
+#Hat
+{
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+   
+}
+#hats-photo
+{
+    width: 100%;
+    border: 2px solid  #222222;
+    transition: .5s ease;
+}
+
+#hats-ancor
+{
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 700;
+    top: 5%;
+    right: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hats-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+}
+
+#Shoes
+{
+  
+    grid-column-start: 3;
+    grid-column-end: 5;
+    position: relative;
+   
+
+}
+#shoes-photo
+{
+    width: 100%;
+    border: 2px solid  #222222;
+    transition: .5s ease;
+}
+
+#shoes-ancor
+{
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 700;
+    top: 5%;
+    right: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#shoes-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+}
+
+
+#Jeens
+{
+   
+    grid-column-start: 5;
+    grid-column-end: 7;
+    position: relative;
+    
+}
+#jeens-photo
+{
+    width: 100%;
+    border: 2px solid  #222222;
+    transition: .5s ease;
+}
+
+#jeens-ancor
+{
+    font-size: 30px;
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: 700;
+    top: 5%;
+    right: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#jeens-photo:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+}

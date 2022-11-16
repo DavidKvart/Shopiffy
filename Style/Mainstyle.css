@@ -1,0 +1,204 @@
+*{font-family: 'PT Sans', sans-serif;}
+    
+h1
+{
+    text-align: center;
+}
+#main-add
+{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    margin-bottom: 7%;
+    margin-top: 1%;
+}
+#main-add p
+{
+    
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+    text-decoration: none;
+    width: 33%;
+    position: absolute;
+}
+#main-add-photo
+{
+    width: 100%;
+    max-height: 100%;
+}
+#main-add a
+{   position: absolute;
+    top: 35%;
+    left: 10%;
+    font-family: 'Times New Roman', serif;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;
+    color: aliceblue;
+    border: 2px solid rgba(127, 255, 212, 0.534);
+    padding: 2px;
+    box-shadow: inset 0 0 0 0 rgba(127, 255, 212, 0.534);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#main-add a:hover {
+    box-shadow: inset 200px 0 0 0 rgba(127, 255, 212, 0.534);
+    color: white;
+}
+#flex-categor
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    gap: 2px 2px;
+    width: 80%;
+    margin-top: 10vh;
+    margin-bottom: 8%;
+    height: 50vh;
+    margin-left: 12%;
+
+}
+#flex-categor img
+{
+    width: 90%;
+    max-height: 100%;
+}
+#flex-categor div{
+    position: relative;
+    
+}
+#flex-categor a
+{
+    position: absolute;
+    bottom:10%;
+    right: 15%;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;  
+    padding: 2px;
+    border-radius: 15%;
+    color: #222222;
+    
+}
+
+#flex-categor img:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+    transform: scale(1.2);
+}
+
+
+#inform-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    width: 90%;
+    margin-left: 5%;
+    border: 4px solid #f2f2f2;
+    gap: 20px;
+    padding: 8px;
+}
+#inform-grid img
+{
+    width: 100%;
+}
+
+.inform-grid-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+  
+    
+}
+.inform-grid-text 
+{
+ background-color: antiquewhite;
+}
+.inform-grid-col p
+{
+   
+}
+
+#new-arrival{
+    margin-top: 6%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 90%;
+   margin-left: 5%;
+   background-image: url(../photos/homepage-desc/newarrival-back.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 50vh;
+   margin-bottom: 8%; 
+}
+#new-arrival p
+{
+    text-align: center;
+    
+}
+
+#new-arrival-img
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5%;
+    position: relative;
+}
+#new-arrival-img img
+{
+    width: 20%;
+}
+#new-arrival-img img:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+    transform: scale(1.2);
+}
+
+
+#hot-and-trend
+{
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 30vh;
+    margin-bottom: 3%;
+
+}
+#hot-and-trend div
+{
+    position: relative;
+}
+#hot-and-trend img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#hot-and-trend a
+{
+    position: absolute;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+}
+#hot-and-trend img:hover
+{
+    box-shadow: 0 0 0 5px #000000;
+    transition: .5s ease;
+    transform: scale(1.05);
+}
